@@ -1,6 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
 
-export const customTheme = extendTheme({
+export const theme = extendTheme({
     semanticTokens: {
       colors: {
         error: '#ab222e',
