@@ -13,7 +13,7 @@ export const Input= ({name, label, ...rest}:InputProps) => {
         
         <FormControl>
             <FormLabel htmlFor={name}>{label}</FormLabel>
-            <ChakraInput variant='filled'  name={name} id={name} {...rest} colorScheme="green" borderColor="green"  bgColor="gray.800" _hover={{ bgColor: 'gray.700' }} focusBorderColor="green.500" size="lg" />
+            <ChakraInput variant='filled'  name={name} id={name} {...rest}  borderColor={"green.700"}  bgColor="gray.800" _hover={{ bgColor: 'gray.700' }} focusBorderColor="green.300" size="lg" />
 
             {/* { !!error && (  
               <FormErrorMessage>

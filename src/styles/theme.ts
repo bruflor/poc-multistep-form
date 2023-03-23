@@ -7,9 +7,9 @@ export const theme = extendTheme({
         warning: '#fba94c',
         success: '#00d42c',
         green: {
-          default: '#00d42c',
-          _dark: '#007a05',
-          _light: '#32ee8c',
+          500: '#00d42c',
+          700: '#007a05',
+          300: '#32ee8c',
         },
         gray: {
           900: '#000',
